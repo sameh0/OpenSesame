@@ -25,11 +25,11 @@ DEVELOPMENT_TEAM = $(DEVELOPMENT_TEAM_OVERRIDE:default=B6QG723P8Z)
 // e.g. iCloud.$(PRODUCT_BUNDLE_IDENTIFIER_BASE) and $(AppIdentifierPrefix)$(PRODUCT_BUNDLE_IDENTIFIER_BASE)
 // Check in the OpenSesame (macOS and iOS) entitlements files and the Info.plists
 PRODUCT_BUNDLE_IDENTIFIER_BASE = 
-PRODUCT_BUNDLE_IDENTIFIER = $(PRODUCT_BUNDLE_IDENTIFIER_BASE:default=com.ethanlipnik.OpenSesame)
+PRODUCT_BUNDLE_IDENTIFIER = $(PRODUCT_BUNDLE_IDENTIFIER_BASE:default=com.sameh.OpenSesame)
 
 // Finally we allow the configuration of the AppGroup
 APP_GROUP_OVERRIDE = 
-APP_GROUP = $(APP_GROUP_OVERRIDE:default=group.OpenSesame.ethanlipnik)
+APP_GROUP = $(APP_GROUP_OVERRIDE:default=group.OpenSesame.sameh)
 
 // Expose a number of configured XCCONFIG settings via autogenerating a Swift file
 // The BuildConfiguration target runs a script phase that runs GenerateBuildConfig.sh
